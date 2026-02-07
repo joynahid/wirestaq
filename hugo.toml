@@ -9,7 +9,6 @@ theme = 'PaperMod'
     description = 'Simplifying Agentic Workflows.'
     author = 'Wirestaq LLC'
     
-    # Homepage Profile
     [params.homeInfoParams]
         Title = "Software that works."
         Content = "We build micro-SaaS products and custom software solutions for businesses that value simplicity and reliability."
@@ -27,3 +26,13 @@ theme = 'PaperMod'
         name = 'About'
         url = '/about'
         weight = 10
+    [[menu.main]]
+        identifier = 'privacy'
+        name = 'Privacy'
+        url = '/privacy'
+        weight = 30
+    [[menu.main]]
+        identifier = 'terms'
+        name = 'Terms'
+        url = '/terms'
+        weight = 40
