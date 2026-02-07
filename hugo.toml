@@ -8,6 +8,9 @@ theme = 'PaperMod'
     title = 'Wirestaq'
     description = 'Simplifying Agentic Workflows.'
     author = 'Wirestaq LLC'
+    hideFooter = false
+    # Remove Hugo branding
+    HideFooterCopyright = true
     
     [params.homeInfoParams]
         Title = "Software that works."
@@ -36,3 +39,6 @@ theme = 'PaperMod'
         name = 'Terms'
         url = '/terms'
         weight = 40
+
+[assets]
+    disableHLJS = true
