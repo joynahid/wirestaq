@@ -7,8 +7,13 @@ theme = 'PaperMod'
     env = 'production'
     title = 'Wirestaq'
     description = 'Simplifying Agentic Workflows.'
-    logo = { text = 'Wirestaq' }
+    author = 'Wirestaq LLC'
     
+    # Homepage Profile
+    [params.homeInfoParams]
+        Title = "Software that works."
+        Content = "We build micro-SaaS products and custom software solutions for businesses that value simplicity and reliability."
+
     [[params.socialIcons]]
         name = 'github'
         url = 'https://github.com/joynahid'
@@ -22,8 +27,3 @@ theme = 'PaperMod'
         name = 'About'
         url = '/about'
         weight = 10
-    [[menu.main]]
-        identifier = 'projects'
-        name = 'Projects'
-        url = '/projects'
-        weight = 20
