@@ -1,0 +1,29 @@
+baseURL = 'https://wirestaq.com/'
+languageCode = 'en-us'
+title = 'Wirestaq'
+theme = 'PaperMod'
+
+[params]
+    env = 'production'
+    title = 'Wirestaq'
+    description = 'Simplifying Agentic Workflows.'
+    logo = { text = 'Wirestaq' }
+    
+    [[params.socialIcons]]
+        name = 'github'
+        url = 'https://github.com/joynahid'
+    [[params.socialIcons]]
+        name = 'twitter'
+        url = 'https://x.com/quiteguy'
+
+[menu]
+    [[menu.main]]
+        identifier = 'about'
+        name = 'About'
+        url = '/about'
+        weight = 10
+    [[menu.main]]
+        identifier = 'projects'
+        name = 'Projects'
+        url = '/projects'
+        weight = 20
